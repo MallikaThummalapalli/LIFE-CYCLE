@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DevOps Life Cycle (Plain HTML)</title>
+</head>
+<body>
+
+  <h1>DevOps Life Cycle</h1>
+
+  <!-- Simple plain-text diagram (no CSS/JS) -->
+  <pre>
+   ( plan )
+      ↓
+   ( develop )
+      ↓
+   ( build )
+      ↓
+   ( test )
+      ↓
+   ( release )
+      ↓
+   ( deploy )
+      ↓
+   ( operate )
+      ↓
+   ( monitor )
+  </pre>
+
+  <!-- Clear explanations for each stage -->
+  <dl>
+    <dt><h2>Plan</h2></dt>
+    <dd>
+      Define business goals and user requirements, identify scope and success criteria, and agree on
+      a roadmap, timelines, and responsibilities. Output: a prioritized backlog and architecture outline.
+    </dd>
+
+    <dt><h2>Develop</h2></dt>
+    <dd>
+      Write, review, and refactor code using version control and branching strategies. Emphasize code
+      quality with peer reviews and static analysis. Output: merge-ready source code.
+    </dd>
+
+    <dt><h2>Build</h2></dt>
+    <dd>
+      Compile and package the application into artifacts (containers/binaries). Automate with CI to ensure
+      repeatable, reliable builds. Output: tested build artifacts ready for promotion.
+    </dd>
+
+    <dt><h2>Test</h2></dt>
+    <dd>
+      Validate functionality, performance, security, and compatibility using unit, integration, end-to-end,
+      and security tests. Fail fast and surface feedback to developers. Output: test reports and quality gate status.
+    </dd>
+
+    <dt><h2>Release</h2></dt>
+    <dd>
+      Approve a version for production by meeting quality gates and compliance checks. Prepare release notes
+      and a rollback plan. Output: a signed, approved release candidate.
+    </dd>
+
+    <dt><h2>Deploy</h2></dt>
+    <dd>
+      Roll out to production (blue-green, canary, or rolling). Manage configuration and secrets and verify
+      post-deployment health. Output: live application instance(s).
+    </dd>
+
+    <dt><h2>Operate</h2></dt>
+    <dd>
+      Run the application reliably—handle capacity, scaling, backups, incident response, and change management.
+      Aim for high availability and resilience. Output: stable, performant operations.
+    </dd>
+
+    <dt><h2>Monitor</h2></dt>
+    <dd>
+      Observe logs, metrics, and traces; track user experience and business KPIs; detect anomalies and
+      feed insights back to planning for continuous improvement. Output: actionable telemetry and feedback.
+    </dd>
+  </dl>
+
+</body>
+</html>
